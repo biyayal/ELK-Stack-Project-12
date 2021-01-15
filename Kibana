@@ -1,1 +1,61 @@
+Exploring Kibana
+Biyaya Laemmel
+01/12/21 
+       
+In the last 7 days, how many unique visitors were located in India? 226
+
+
+In the last 24 hours, of the visitors from China, how many were using Mac OSX? 20.59%
+
+
+In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors? 33.333% of visitors received 404 errors. 0% of visitors received 503 errors.
+
+
+In the last 7 days, what country produced the majority of the traffic on the website? Bangladesh 
+
+
+Of the traffic that's coming from that country, what time of day had the highest amount of activity? 14:00
+
+
+List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type). 
+CSS - a cascading style sheet file is used to format the contents of a webpage. It contains customized, global properties for how to display HTML elements and they are stored in a plain text format.
+DEB - a file is a standard Unix archive that contains two bzipped or gzipped archives, one for the installer control information and another for the actual installable data. DEB files are often used for software installation packages by multiple versions of Linux.
+GZ - an archive file compressed by the standard GNU zip (gzip) compression algorithm. It contains a compressed collection of one or more files and is commonly used on Unix operating systems for file compression.
+RPM - a Red Hat Package Manager file that's used to store installation packages on Linux operating systems. These files provide an easy way for software to be distributed, installed, upgraded, and removed since they're "packaged" in one place.
+ZIP - an archive file format that supports lossless data compression. 
+
+
+Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
+
+
+Locate the time frame in the last 7 days with the most amount of bytes (activity). Within the 3 hour time frame of 18:00 on 01/10/2021. 
+In your own words, is there anything that seems potentially strange about this activity? What seems strange about this activity is that there was only one unique visitor at the time of the most amount of activity.
+4. Filter the data by this event.
+
+
+What is the timestamp for this event? 17:00
+What kind of file was downloaded? GZ file.
+From what country did this activity originate? India.
+What HTTP response codes were encountered by this visitor? 200
+
+Switch to the Kibana Discover page to see more details about this activity.
+
+
+What is the source IP address of this activity? 8.106.16.196.
+What are the geo coordinates of this activity? { "lat": 40.66424333, "long": -89.69330556 }.
+What OS was the source machine running? Win XP
+What is the full URL that was accessed? https://www.elastic.co/downloads/beats/metricbeat 
+From what website did the visitor's traffic originate? www.elastic.co 
+
+Finish your investigation with a short overview of your insights.
+
+
+What do you think the user was doing? I think the user was attempting a DoS attack. 
+Was the file they downloaded malicious? If not, what is the file used for? I could not see what file was downloaded.
+Is there anything that seems suspicious about this activity? It is suspicious that there was so much traffic coming from one source.
+Is any of the traffic you inspected potentially outside of compliance guidelines? No.
+
+
+
+
 
